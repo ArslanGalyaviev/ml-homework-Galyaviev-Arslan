@@ -17,12 +17,7 @@ def are_multisets_equal(x, y):
     np.sort(x)
     np.sort(y)
     
-    is_equal = False
-    
-    if x.all() == y.all():
-        is_equal = True
-    
-    return is_equal
+    return x.all() == y.all()
 
     pass
 
